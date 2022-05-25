@@ -48,7 +48,7 @@ class ViewController: UIViewController {
     }
     
     private func showAlert(message: String){
-        let alert = UIAlertController(title: "My UserDefaults", message: message, preferredStyle: .alert)
+        let alert = UIAlertController(title: "My usarDefaults", message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         present(alert, animated: true, completion: nil)
     }
